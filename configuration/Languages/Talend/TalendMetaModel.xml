@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<metaModel file_level="client" file_no="74">
+
+    <type name="Talend_SUBSET" rid="400">
+		<description>Talend Subset</description>
+		<inheritedCategory name="PROJECT_SUBSET"/>
+		<inheritedCategory name="Talend"/>
+		<inheritedCategory name="APM Talend Module"/>
+    </type>
+    
+	<category name="APM Talend Module" rid="0">
+		<description>Talend</description>
+		<inheritedCategory name="APM Client Modules"/>
+	</category>
+
+	<category name="APM Talend Artifacts" rid="1">
+		<description>Talend Artifacts</description>
+		<inheritedCategory name="APM Client Language Artifacts"/>
+		<!-- <inheritedCategory name="APM Sources"/> -->
+	</category>
+	
+	<category name="Talend" rid="2">
+		<description>Talend</description>
+		<attribute name="extensions" stringValue="*.item"/>
+		<inheritedCategory name="UniversalLanguage"/>
+		<inheritedCategory name="CsvLanguage"/>
+	</category>
+	
+	<!-- Talend Enlighten group -->
+	<type name="EnlightenVantiveGUI" rid="900">
+		<description>Talend</description>
+		<tree parent="EnlightenUniversalObjects" category="EnlightenTree"/>
+	</type>
+	
+	
+	<!-- #################################### Objects Defining #################################### -->
+	<type name="Talend_ProcessType" rid="3">
+		<description>Talend_ProcessType</description>
+		<inheritedCategory name="UAProject"/>
+		<inheritedCategory name="Talend"/>
+		<inheritedCategory name="APM Talend Module"/>
+		<inheritedCategory name="ProcessTypeProperties"/>
+	</type>
+	
+	<type name="Talend_PT_Context" rid="4">
+		<description>Talend_ProcessType Context</description>
+		<inheritedCategory name="UAProject"/>
+		<inheritedCategory name="Talend"/>
+		<inheritedCategory name="APM Talend Module"/>
+		<inheritedCategory name="ProcessTypeProperties"/>
+	</type>
+	
+	<type name="Talend_PT_Metadata" rid="9">
+		<description>Talend_ProcessType Metadata</description>
+		<inheritedCategory name="UAProject"/>
+		<inheritedCategory name="Talend"/>
+		<inheritedCategory name="APM Talend Module"/>
+		<inheritedCategory name="ProcessTypeProperties"/>
+	</type>
+	
+	<type name="Talend_PT_MetadataColumn" rid="10">
+		<description>Talend_ProcessType Column</description>
+		<inheritedCategory name="UAProject"/>
+		<inheritedCategory name="Talend"/>
+		<inheritedCategory name="APM Talend Module"/>
+		<inheritedCategory name="ProcessTypeProperties"/>
+	</type>
+
+	
+	<type name="Talend_PT_contextParameter" rid="5">
+		<description>Talend_PT_contextParameter</description>
+		<inheritedCategory name="UAObject"/>
+		<inheritedCategory name="caseInsensitive"/>
+		<inheritedCategory name="Talend"/>
+		<inheritedCategory name="APM Talend Artifacts"/>
+		<inheritedCategory name="APM IFPUG Transaction"/>	
+		<inheritedCategory name="ProcessTypeProperties"/>
+		<inheritedCategory name="METRICABLE"/>
+		<inheritedCategory name="ESQLSearchable"/>
+	</type>
+	
+	<type name="Talend_PT_elementParameter" rid="6">
+		<description>Talend_PT_contextParameter</description>
+		<inheritedCategory name="UAObject"/>
+		<inheritedCategory name="caseInsensitive"/>
+		<inheritedCategory name="Talend"/>
+		<inheritedCategory name="APM Talend Artifacts"/>
+		<inheritedCategory name="APM IFPUG Transaction"/>	
+		<inheritedCategory name="ProcessTypeProperties"/>
+		<inheritedCategory name="METRICABLE"/>
+		<inheritedCategory name="ESQLSearchable"/>
+	</type>
+	
+	
+	
+	<category name="ProcessTypeProperties" rid="13">
+	
+        <description>Custom properties for ProcessType Objects</description>
+        <property name="TypeName" type="string" rid="14">
+            <description>TypeName</description>
+            <attribute name="INF_TYPE" intValue="2801000"/>
+            <attribute name="INF_SUB_TYPE" intValue="1"/>
+            <attribute name="ACCESS_APPVIEW" intValue="1"/>
+            <attribute name="ACCESS_CVS" intValue="1"/>
+            <attribute name="ACCESS_HTML" intValue="1"/>
+      	</property>
+      	     	
+		
+    </category>
+
+
+   
+ 		
+</metaModel>
+
